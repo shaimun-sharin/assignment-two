@@ -52,6 +52,7 @@ nav {
     display: flex;
     align-items: center;
     padding: 10px 50px;
+    margin-bottom: 100px;
 }
 .Tsec-right {
     width: 70%;
@@ -99,4 +100,24 @@ nav {
 }
 .fa-arrow-right {
     padding-left: 5px;
+}
+/* logo box css */
+.logo-box {
+    width: 1100px;
+height: 110px;
+border: 1px solid lightgrey;
+border-style: solid none;
+padding-left: 50px;
+margin: 100px 0px 40px 100px;
+
+}
+
+.logo-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-nav ul li {
+    list-style: none;
+    padding: 10px 30px 20px;
 }
