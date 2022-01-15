@@ -53,9 +53,10 @@ nav {
     font-size: 16px;
     padding: 15px 10px;
 }
-/* top section css */
+/* --------top section css -----*/
 .top-section {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     align-items: center;
     padding: 10px 50px;
     margin-bottom: 100px;
@@ -157,15 +158,11 @@ padding: 15px;
     display:flex;
     align-items: center;
     font-size: 14px;
-    
-
- 
 }
 .product-detail {
     display: flex;
     flex-direction: column;
     padding: 10px;
-
 }
 .product-title {
     font-size: 18px;
@@ -197,9 +194,9 @@ padding: 15px;
 
 footer {
     width: 1440px;
-height: 225px;
-background:lightcoral;
-text-align: center;
+    height: 225px;
+    background:lightcoral;
+    text-align: center;
 }
 
 .last-section {
@@ -221,4 +218,35 @@ text-align: center;
     color: #FFFFFF;
     justify-content:center;
     column-gap: 15px;
+}
+@media only screen and (max-width:688px) {
+    .navigation ul li{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        background-color: #FFFFFF;
+        /* height: 80px; */
+        color: black;
+    }
+    .top-section {
+        display:flex;
+        flex-direction: column; 
+    }
+    .logo-nav {
+        width: 100vh;
+    }
+}
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .top-section {
+        display:grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+    .logo-nav {
+        width: 992px;
+    }
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer {
+        width: 992px;
+    }
 }
