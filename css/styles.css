@@ -12,6 +12,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
+    
+}
 }
 /* ---------header css----------- */
 header {
@@ -120,4 +122,62 @@ margin: 100px 0px 40px 100px;
 .logo-nav ul li {
     list-style: none;
     padding: 10px 30px 20px;
+}
+/* products css */
+.products-container {
+    margin: 50px 0;
+    padding: 10px ;
+}
+.products{
+    display:grid ;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    padding-left: 100px;
+    grid-row-gap: 50px;
+}
+.product {
+    width: 300px;
+    height: 500px;
+    background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+}
+.product .product-banner img {
+    width: 300px;
+height: 245px;
+padding: 15px;
+}
+.product-info {
+    display:flex;
+    align-items: center;
+    font-size: 14px;
+    
+
+ 
+}
+.product-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.product-title {
+    font-size: 18px;
+}
+.info {
+    color: #787885;
+}
+.fa-star {
+    font-size: 12px;
+}
+.fa-star.filled {
+    color: #FFC014;
+}
+.fa-star.empty {
+    color: #AEAEAE;
+}
+.section-title {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 30px;
 }
