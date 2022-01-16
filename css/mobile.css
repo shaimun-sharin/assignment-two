@@ -9,9 +9,15 @@
     font-size: 20px;
     padding-left: 120px;
 }
+.brand-name:hover {
+    font-size: 30px;
+    color: black;
+}
 .top-section {
     grid-template-columns: repeat(1,1fr);
 }
+
+
 .Tsec-left {
     width: 100%;
     justify-content: center;
@@ -20,6 +26,9 @@
 }
 .Tsec-h1 {
     font-size: 20px;
+}
+.Tsec-h1:hover {
+    color: hotpink;
 }
 .Tsec-p {
     font-size: 14px;
@@ -36,13 +45,12 @@
     margin: 200px auto 0;
 }
 .logo-box {
-display: none;
+    display: none;
 }
 .logo-nav ul {
     display: flex;
-flex-direction: column;
+    flex-direction: column;
 }
-
 .products {
     grid-template-columns: repeat(1,1fr);
     justify-content: center;
@@ -51,62 +59,6 @@ flex-direction: column;
 .account {
     grid-template-columns: repeat(1,1fr);
 }
-/* h5 {
-    text-align: center;
-    font-size: 18px;
-}
-.login-form input,
-        button {
-            padding-left: 10px;
-            font-size: 1.3em;
-            margin: 5px;
-            border: 1px solid lightgray;
-            border-radius: 5px;
-        }
-
-        .login-form button {
-            background-color: pink;
-            color: brown;
-            margin: 10px;
-            padding: 5px;
-        }
-
-        .login-container {
-            display: flex;
-            justify-content: center;
-        }
-
-        .login-form {
-            display: flex;
-            flex-direction: column;
-        }
-
-        
-        .signup-form input,
-        button {
-            padding-left: 10px;
-            font-size: 1.3em;
-            margin: 5px;
-            border: 1px solid lightgray;
-            border-radius: 5px;
-        }
-
-        .signup-form button {
-            background-color: rgb(133, 252, 252);
-            color: blue;
-            margin: 10px;
-            padding: 5px;
-        }
-
-        .signup-container {
-            display: flex;
-            justify-content: center;
-        }
-
-        .signup-form {
-            display: flex;
-            flex-direction: column;
-        } */
 footer {
     width: 100%;
 }
