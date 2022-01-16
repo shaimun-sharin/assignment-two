@@ -23,8 +23,6 @@
 }
 .products {
     grid-template-columns: repeat(2,1fr);
-    /* justify-content: center;
-    align-items: center; */
     padding-left: 0px;
 }
 .logo-box {
