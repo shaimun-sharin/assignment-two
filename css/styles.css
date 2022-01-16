@@ -18,10 +18,8 @@ body {
 /* ---------header css----------- */
 header {
     
-  
     height: 50px;
     background-color: lightcoral;
-    
     
 }
 nav {
@@ -218,67 +216,4 @@ footer {
     color: #FFFFFF;
     justify-content:center;
     column-gap: 15px;
-}
-@media only screen and (max-width:600px) {
-    /* .navigation ul li{
-        display: grid;
-        grid-template-columns:repeat(1,1fr);
-        background-color: #FFFFFF;
-        
-        color: black;
-    }
-    .top-section {
-        display:flex;
-        flex-direction: column; 
-    }
-    .logo-nav {
-        width: 100vh;
-    } */
-        .container{
-            width: 80%;
-        }
-    .top-section {
-        grid-template-columns: repeat(1, 1fr);
-        width: 100%;
-        justify-content: center;
-   
-    }
-    .Tsec-left {
-        width: 100%;
-        text-align: center;
-    }
-    .Tsec-right{
-        width: 100%;
-        margin: 100px  0 0 300px;
-        float: left;
-    }
-
-
-
-    .logo-box ul li {
-        display: flex;
-        flex-direction: column;
-    }
-    .products {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    footer {
-        width: 100%;
-    }
-}
-@media only screen and (min-width:600px) and (max-width:768px) {
-    .top-section {
-        display:flex;
-        flex-direction: column; 
-        width: 100%;
-    }
-    .logo-nav {
-        width: 100%;
-    }
-    .products {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    footer {
-        width: 100%;
-    }
 }
