@@ -14,14 +14,12 @@ body {
     padding: 0 30px;
     
 }
-
 /* ---------header css----------- */
 header {
-    
     height: 50px;
     background-color: lightcoral;
-    
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -34,9 +32,16 @@ nav {
     font-size: 30px;
     color: #fcdfdf;
 }
-.navigation  {
+.brand-name:hover {
+    font-size: 50px;
+    color: black;
+}
+.navigation {
     display: flex;
-    
+}
+.navigation li a:hover {
+    color: black;
+    font-size: 18px;
 }
 .navigation li {
     list-style: none;
@@ -64,6 +69,7 @@ nav {
     width: 582px;
     height: 270px;
 }
+
 .Tsec-right {
     width: 30%;
     margin: 50px 0px 0px 400px;
@@ -79,6 +85,11 @@ nav {
     font-size: 40px;
     color: #3A3A3A;
 }
+.Tsec-h1:hover {
+    color: hotpink;
+    font-size: 50px;
+}
+
 .Tsec-p {
     font-size: 16px;
     color: #9b9393;
@@ -106,14 +117,14 @@ nav {
 .fa-arrow-right {
     padding-left: 5px;
 }
-/* logo box css */
+/*------- logo box css------ */
 .logo-box {
     width: 1100px;
-height: 110px;
-border: 1px solid lightgrey;
-border-style: solid none;
-padding-left: 50px;
-margin: 100px 0px 40px 100px;
+    height: 110px;
+    border: 1px solid lightgrey;
+    border-style: solid none;
+    padding-left: 50px;  
+    margin: 100px 0px 40px 100px;
 
 }
 
@@ -126,7 +137,7 @@ margin: 100px 0px 40px 100px;
     list-style: none;
     padding: 10px 30px 20px;
 }
-/* products css */
+/*------ products css----- */
 .products-container {
     margin: 50px 0;
     padding: 10px ;
@@ -144,13 +155,13 @@ margin: 100px 0px 40px 100px;
     width: 300px;
     height: 500px;
     background: #FFFFFF;
-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
 }
 .product .product-banner img {
     width: 300px;
-height: 245px;
-padding: 15px;
+    height: 245px;
+    padding: 15px;
 }
 .product-info {
     display:flex;
@@ -189,6 +200,7 @@ padding: 15px;
     float: right;
     padding-right: 70px;
 }
+/* -------account css------- */
 .account {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -197,66 +209,42 @@ h5 {
     text-align: center;
     font-size: 18px;
 }
-.login-form input,
-        button {
-            padding-left: 10px;
-            font-size: 1.3em;
-            margin: 5px;
-            border: 1px solid lightgray;
-            border-radius: 5px;
-        }
+.login-form input, button, .signup-form input,button {
+    padding-left: 10px;
+    font-size: 1.3em;
+    margin: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
 
-        .login-form button {
-            background-color: pink;
-            color: brown;
-            margin: 10px;
-            padding: 5px;
-        }
+.login-form button,.signup-form button {
+    background-color: pink;
+    color: brown;
+    margin: 10px;
+    padding: 5px;
+}
 
-        .login-container {
-            display: flex;
-            justify-content: center;
-        }
+.login-container,.signup-container {
+    display: flex;
+    justify-content: center;
+}
 
-        .login-form {
-            display: flex;
-            flex-direction: column;
-        }
+.login-form,.signup-form  {
+    display: flex;
+    flex-direction: column;
+}
 
-        
-        .signup-form input,
-        button {
-            padding-left: 10px;
-            font-size: 1.3em;
-            margin: 5px;
-            border: 1px solid lightgray;
-            border-radius: 5px;
-        }
-
-        .signup-form button {
-            background-color: rgb(133, 252, 252);
-            color: blue;
-            margin: 10px;
-            padding: 5px;
-        }
-
-        .signup-container {
-            display: flex;
-            justify-content: center;
-        }
-
-        .signup-form {
-            display: flex;
-            flex-direction: column;
-        }
-
-        
-
+/* -----footer css */
 footer {
     width: 1250px;
     height: 225px;
     background:lightcoral;
     text-align: center;
+}
+.footer-title {
+    font-size: 24px;
+    color: #FFFFFF;
+    padding-bottom: 0px;
 }
 
 .last-section {
@@ -268,11 +256,7 @@ footer {
     
     
 }
-.footer-title {
-    font-size: 24px;
-    color: #FFFFFF;
-    padding-bottom: 0px;
-}
+
 .icons {
     display: flex;
     color: #FFFFFF;
